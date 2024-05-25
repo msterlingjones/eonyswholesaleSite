@@ -1,0 +1,129 @@
+body {
+  background-color: rgb(245, 235, 222);
+  font-family: "Fira Sans", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2em;
+}
+
+img {
+  max-width: 100%;
+  max-height: 700px;
+  padding-bottom: 5px;
+}
+
+h1 {
+  color: rgb(25, 25, 25);
+  font: 2em "Fira Sans", sans-serif;
+  text-align: center;
+}
+
+.slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  max-width: 900px;
+}
+audio {
+  padding-top: 5px;
+}
+.slides > div {
+  display: flex;
+  flex-shrink: 0;
+  width: 100%;
+  max-height: 700px;
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  margin: 1px;
+}
+
+#appIcon {
+  max-height: 75px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.sides > a > p {
+  font-size: 0.5rem;
+  text-align: center;
+  width: 200px;
+  margin-top: 20px;
+  text-decoration: none;
+  display: flex;
+}
+
+#mainContainerFlex,
+#headerFlex,
+#detailDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 2rem;
+}
+#nav {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  padding: 5px;
+  width: 400px;
+}
+#nav > a {
+  width: 100px;
+  color: buttontext;
+  font-size: 0.9rem;
+  padding: 15px 0px;
+  text-align: center;
+  margin-top: 15px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+#scrollNav {
+  display: inline-flex;
+}
+#NavPrev {
+  margin-right: 5px;
+}
+#NavNext {
+  margin-left: 5px;
+}
+a.navbtn {
+  color: buttontext;
+  font-size: 1rem;
+  padding: 5px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+.selected {
+  color: buttontext;
+  border-bottom: medium outset rgb(23, 22, 19);
+}
+
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  #nav > a {
+    font-size: 0.8rem;
+  }
+  #BodyContainer > p,
+  .item-details {
+    font-size: 0.7rem;
+  }
+}
+
+/* responsive table styles */
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "ID": 1,
+        "Image": "images/SquareFeet.png",
+        "Title": "Square Footage",
+        "Details": "Indulge in grandeur with over 4800 square feet of luxurious living space, meticulously crafted for comfort and elegance. The main level boasts a plethora of inviting rooms, from the expansive great room with its large dining area and kitchen featuring a wrap-around bar, to the cozy family room adorned with a gorgeous fireplace and TV hookups. Marvel at the 2-story sitting space, offering stunning views of Oquirrh Lake through oversized French glass doors, while the opposite side houses a spacious front office bathed in natural light. An oversized mudroom seamlessly connects the kitchen to the garage, adding practicality to luxury living. Upstairs, the elevated perspective of the lake from the master suite and additional bedrooms provides a serene retreat, while the basement offers further space for relaxation and entertainment with additional bedrooms, family room, laundry facilities, and an office. With custom window coverings ensuring privacy and over 20 windows bathing the main floor in natural light, this home embodies the perfect blend of comfort, style, and functionality.",
+        "AltText": "Total square footage and beakdown by floor.",
+        "Audio": "audio/spec_1.m4a"
+    },
+    {
+        "ID": 2,
+        "Image": "images/AreaMap.png",
+        "Title": "Map of Surrounding Area",
+        "Details": "Discover the convenience of living in this prime location, surrounded by key points of interest just minutes from your doorstep. Herriman High School lies a mere 2 miles to the west, offering quality education within reach. Daybreak Elementary, less than a mile south, provides a nurturing environment for young learners. For middle school students, a nearby campus awaits just 2 miles north. Plus, enjoy easy access to a plethora of shopping, dining, and entertainment options, all within a mile's radius. And with the TRAX station, Bangerter Highway, and Mountain View Corridor just minutes away, commuting and exploring the greater area couldn't be more convenient. Experience the epitome of convenience and connectivity in this vibrant community.",
+        "AltText": "Map of Surrounding Area.",
+        "Audio": "audio/spec_2.m4a"
+    }
+]
